@@ -13,8 +13,12 @@
     tools:context="com.dhakadigital.tdd.livestream.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <fragment
+        android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+        android:id="@+id/youtubeplayerfragment"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        />
 </RelativeLayout>
