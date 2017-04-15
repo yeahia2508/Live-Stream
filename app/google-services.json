@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "661251947830",
+    "firebase_url": "https://youtubelivestream-4a0b8.firebaseio.com",
+    "project_id": "youtubelivestream-4a0b8",
+    "storage_bucket": "youtubelivestream-4a0b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661251947830:android:577aa6fcab4a073c",
+        "android_client_info": {
+          "package_name": "com.tdd.livestream"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661251947830-vmiptmktl68hvaug3aq8ugpd9004kmrb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCoTDjS7HP_JMGI8d7mngIIfz9PO5d_DM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

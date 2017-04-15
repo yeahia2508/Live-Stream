@@ -1,4 +1,4 @@
-package com.dhakadigital.tdd.livestream;
+package com.tdd.livestream;
 
 import org.junit.Test;
 
