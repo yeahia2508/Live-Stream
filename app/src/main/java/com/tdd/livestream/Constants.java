@@ -5,6 +5,6 @@ package com.tdd.livestream;
  */
 
 public class Constants {
-    public static final String DEVELOPER_KEY  = "AIzaSyDjvmpKrwZMJWi2iQYE0wXt61P9Dx1x8v0";
+    public static final String DEVELOPER_KEY  = " AIzaSyD4n6muFACguOKU1ZH5N2iEe1vToLg4Mxs";
 
 }

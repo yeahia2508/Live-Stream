@@ -17,8 +17,8 @@ import java.util.ArrayList;
 public class MainActivity extends YouTubeBaseActivity implements
         YouTubePlayer.OnInitializedListener{
     AdView mAdView;
-    public static final String API_KEY = "AIzaSyCe6tORd9Ch4lx-9Ku5SQ476uS9OtZYsWA";
-    public static final String VIDEO_ID = "YO_kWRPCP7M";
+    public static final String API_KEY = "AIzaSyD4n6muFACguOKU1ZH5N2iEe1vToLg4Mxs";
+    public static final String VIDEO_ID = "VL7pQllWggs";
     public static final String VIDEO_ID_NTV = "4ZRb7uYGDVw";
     public static final String VIDEO_ID_SKY_NEWS = "y60wDzZt8yg";
     private static final int RECOVERY_DIALOG_REQUEST = 1;
@@ -32,7 +32,9 @@ public class MainActivity extends YouTubeBaseActivity implements
 
         MobileAds.initialize(getApplicationContext(), getString(R.string.banner_ad_unit));
         mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
+        AdRequest adRequest = new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .build();
         mAdView.loadAd(adRequest);
 
         youTubePlayerView = (YouTubePlayerView)findViewById(R.id.youtubeplayerview);
